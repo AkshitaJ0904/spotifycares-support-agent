@@ -1,0 +1,62 @@
+{
+  "brand": "SpotifyCares",
+  "derivation_note": "Derived bottom-up from TF-IDF+KMeans clustering (k=9) over 27,393 opening customer messages (scripts/02_build_taxonomy.py -> scripts/out/cluster_review.md), then hand-consolidated. Raw clusters were noisy on short tweets (expected for sparse TF-IDF on <280-char text): several clusters mixed technical bugs with feature requests, and one catch-all cluster held ~38% of messages. Clusters were used as evidence, not taken verbatim -- see DECISIONS.md.",
+  "intents": [
+    {
+      "id": "account_access",
+      "name": "Account Access & Security",
+      "description": "Login failures, password resets, username/email changes, suspected account compromise/hacking.",
+      "keywords": ["login", "log in", "password", "account", "hacked", "username", "email", "sign in", "compromised", "reset"],
+      "typically_needs_pii": true
+    },
+    {
+      "id": "billing_subscription",
+      "name": "Billing & Subscription",
+      "description": "Premium charges, failed/duplicate payments, student or family-plan discounts, family plan invites, refunds, upgrade/downgrade issues.",
+      "keywords": ["premium", "charged", "family plan", "student", "refund", "payment", "subscription", "billed", "invite", "discount"],
+      "typically_needs_pii": true
+    },
+    {
+      "id": "playback_technical_bug",
+      "name": "Playback & Technical Bug",
+      "description": "App crashes/freezes, playback errors, download/sync failures, device or platform compatibility problems (iOS, Android, watch, smart speakers, consoles).",
+      "keywords": ["crash", "freeze", "won't play", "buffering", "bug", "not working", "sync", "download", "app", "update"],
+      "typically_needs_pii": false
+    },
+    {
+      "id": "content_availability",
+      "name": "Content Availability & Licensing",
+      "description": "Specific song/album/artist/podcast missing, removed, or unavailable in the user's region; licensing questions.",
+      "keywords": ["available", "removed", "missing", "album", "song", "podcast", "region", "country", "licensing"],
+      "typically_needs_pii": false
+    },
+    {
+      "id": "feature_request",
+      "name": "Feature Request",
+      "description": "Explicit asks for new features, UI changes, or product behavior changes.",
+      "keywords": ["please add", "feature", "wish", "would be nice", "why can't you", "should let us", "make it possible"],
+      "typically_needs_pii": false
+    },
+    {
+      "id": "general_feedback_complaint",
+      "name": "General Feedback / Complaint",
+      "description": "Opinions, venting, or complaints about product decisions (curation, algorithm, price, recent changes) that aren't a discrete bug to fix.",
+      "keywords": ["hate", "worst", "used to", "why did you change", "terrible", "disappointed", "annoying"],
+      "typically_needs_pii": false
+    },
+    {
+      "id": "general_inquiry",
+      "name": "General Inquiry",
+      "description": "Informational questions not tied to a personal problem: how something works, availability of the service itself, careers, praise/thanks, small talk.",
+      "keywords": ["how do i", "does spotify", "job", "career", "thanks", "thank you", "question"],
+      "typically_needs_pii": false
+    },
+    {
+      "id": "other_unclear",
+      "name": "Other / Unclear",
+      "description": "Doesn't fit the above, ambiguous, non-English, or too little signal to classify confidently.",
+      "keywords": [],
+      "typically_needs_pii": false
+    }
+  ]
+}

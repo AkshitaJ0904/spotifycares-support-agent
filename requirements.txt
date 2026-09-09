@@ -1,0 +1,10 @@
+pandas
+pyarrow
+huggingface_hub
+scikit-learn
+scipy
+joblib
+numpy
+tqdm
+requests
+python-dotenv

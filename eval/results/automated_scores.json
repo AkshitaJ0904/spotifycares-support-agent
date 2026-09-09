@@ -1,0 +1,94 @@
+{
+  "trivial": {
+    "system": "trivial",
+    "n": 111,
+    "n_failed": 0,
+    "intent_accuracy": 0.15315315315315314,
+    "intent_macro_f1": 0.033203125,
+    "intent_per_class_f1": {
+      "account_access": 0.0,
+      "billing_subscription": 0.265625,
+      "content_availability": 0.0,
+      "feature_request": 0.0,
+      "general_feedback_complaint": 0.0,
+      "general_inquiry": 0.0,
+      "other_unclear": 0.0,
+      "playback_technical_bug": 0.0
+    },
+    "action_accuracy": 0.6036036036036037,
+    "action_escalate_precision": 0.0,
+    "action_escalate_recall": 0.0,
+    "action_escalate_f1": 0.0,
+    "action_true_dist": {
+      "auto": 67,
+      "escalate": 44
+    },
+    "action_pred_dist": {
+      "auto": 111
+    },
+    "reply_token_overlap_f1_mean": 0.1361110888596429,
+    "reply_length_words_mean": 17.0
+  },
+  "simple": {
+    "system": "simple",
+    "n": 111,
+    "n_failed": 0,
+    "intent_accuracy": 0.46846846846846846,
+    "intent_macro_f1": 0.45597124645086223,
+    "intent_per_class_f1": {
+      "account_access": 0.6896551724137931,
+      "billing_subscription": 0.8,
+      "content_availability": 0.47368421052631576,
+      "feature_request": 0.3157894736842105,
+      "general_feedback_complaint": 0.4,
+      "general_inquiry": 0.2857142857142857,
+      "other_unclear": 0.24390243902439024,
+      "playback_technical_bug": 0.43902439024390244
+    },
+    "action_accuracy": 0.7477477477477478,
+    "action_escalate_precision": 0.7666666666666667,
+    "action_escalate_recall": 0.5227272727272727,
+    "action_escalate_f1": 0.6216216216216216,
+    "action_true_dist": {
+      "auto": 67,
+      "escalate": 44
+    },
+    "action_pred_dist": {
+      "auto": 81,
+      "escalate": 30
+    },
+    "reply_token_overlap_f1_mean": 0.293763134744481,
+    "reply_length_words_mean": 20.91891891891892
+  },
+  "full": {
+    "system": "full",
+    "n": 111,
+    "n_failed": 2,
+    "intent_accuracy": 0.7522935779816514,
+    "intent_macro_f1": 0.7103633071375007,
+    "intent_per_class_f1": {
+      "account_access": 0.8333333333333334,
+      "billing_subscription": 0.7857142857142857,
+      "content_availability": 0.9047619047619048,
+      "feature_request": 0.7741935483870968,
+      "general_feedback_complaint": 0.47619047619047616,
+      "general_inquiry": 0.6363636363636364,
+      "other_unclear": 0.46153846153846156,
+      "playback_technical_bug": 0.8108108108108109
+    },
+    "action_accuracy": 0.7522935779816514,
+    "action_escalate_precision": 0.7272727272727273,
+    "action_escalate_recall": 0.5714285714285714,
+    "action_escalate_f1": 0.64,
+    "action_true_dist": {
+      "auto": 67,
+      "escalate": 42
+    },
+    "action_pred_dist": {
+      "escalate": 33,
+      "auto": 76
+    },
+    "reply_token_overlap_f1_mean": 0.3009014757081245,
+    "reply_length_words_mean": 23.01834862385321
+  }
+}

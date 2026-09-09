@@ -1,0 +1,840 @@
+g000	other_unclear	auto	ANGER=0
+  MSG: how come i pay for service and still get capped? [link]
+  HIST_REPLY: 2: supporting these ideas in our Community to help the increase happen: [link] and [link] || 1: Hey! Currently, you can only download 3,333 songs for offline use per device, on a maxi
+
+g001	feature_request	auto	ANGER=1
+  MSG: hey buttheads bring back the touch preview feature already before I shit a brick
+  HIST_REPLY: Hey Danny! We have more info about this here: [link] Give us a shout if you have any quest
+
+g002	general_inquiry	auto	ANGER=0
+  MSG: Most iOS apps have already been optimized for iPhone X. Any plans do update Spotify to support Apple’s new display?
+  HIST_REPLY: Hey James! We don't have any info on this right now, but we've passed the feedback directl
+
+g003	other_unclear	auto	ANGER=0
+  MSG: Spotify isn't working on my Sonos. Is there an issue that you are aware of? Cheers.
+  HIST_REPLY: Hey! Don’t worry, we can help. What’s happening exactly? Can you let us know the device/OS || Cool! Just give us a shout if the problem persists. We're... [link]
+
+g004	feature_request	escalate	ANGER=0
+  MSG: . Did you get rid of your personalized Release Radar feature? How come it's no longer in my Spotify?
+  HIST_REPLY: Hey Kyle! Could you go to Browse &gt; Discover &gt; Release Radar to see if it's there? Ke || Hmm, can you DM us your account's email address? We'll check backstage /LW [link]
+
+g005	account_access	escalate	ANGER=0
+  MSG: I lost the email and username for my premium account so I can no longer sign in. I am getting charged 10$ a month for an account I cannot use, I would like to stop premium on this account. can you help me out?
+  HIST_REPLY: Hi Eric! We'll help out, don't worry. Can you DM us the username or email address on your 
+
+g006	content_availability	auto	ANGER=0
+  MSG: Confession: I haven't listened to either lemonade or reputation in their entirety bc they're not on yet.. brand loyalty or cheap?
+  HIST_REPLY: Hey Brooke! We'd love to have them on Spotify. Hopefully we will in the future. Check this
+
+g007	other_unclear	escalate	ANGER=0
+  MSG: Sent you a DM about an account issue 🙃
+  HIST_REPLY: Hi! We've just replied to your DM. Let's continue chatting there
+
+g008	general_inquiry	auto	ANGER=0
+  MSG: Yo, . Please stop unsaving albums from my library. Thanks.
+  HIST_REPLY: Hey, we're sorry to hear that! Check out the steps under “Downloads unexpectedly removed” 
+
+g009	other_unclear	escalate	ANGER=0
+  MSG: honestly why is it literally just me having so many problems with spotify
+  HIST_REPLY: Hi again Kiera! We've just responded to your last DM. Let's carry on chatting there /T
+
+g010	other_unclear	escalate	ANGER=0
+  MSG: Hi I reached out through email weeks ago requesting an artist separation. Still haven't heard back. Pls help
+  HIST_REPLY: Hey Jake, help's here! Could you DM us the email address you used to reach out? We'll take
+
+g011	content_availability	auto	ANGER=0
+  MSG: Why is Cocoa Butter Kisses not on ?
+  HIST_REPLY: Hey Erica! We’d love to have all of their stuff available, but we have some info about con
+
+g012	content_availability	auto	ANGER=0
+  MSG: Is it at all possible to get "Satie: Vexations (840 Times)" to be removed from Erik Satie's Artist page? It's a joke, I know, but it's really annoying to have to scroll so far to get to any of his other music. It's the s
+  HIST_REPLY: HI Jonathan. We understand how hard that'd be, but we're afraid that we make albums availa
+
+g013	general_inquiry	auto	ANGER=0
+  MSG: When are you starting your operations in India?
+  HIST_REPLY: Hey there! We're launching in new countries as often as possible. Be sure to add your emai
+
+g014	billing_subscription	escalate	ANGER=0
+  MSG: I have upgraded my account to premium via Vodafone however on the app my account is still showing as free not premium pls help?
+  HIST_REPLY: Hi Natalie, help's here! Can you DM us your account's username and email address? We'll ch
+
+g015	billing_subscription	escalate	ANGER=0
+  MSG: trying to update the payment details on premium account. Site keeps directing me to a student account and won't verify payment
+  HIST_REPLY: Hey Charlotte, help's here! Can you DM us your account's email address? We'll take a look 
+
+g016	billing_subscription	escalate	ANGER=0
+  MSG: min, pembayaran spotify premium yang 3 bulan dan 6 bulan hanya untuk akun baru??
+  HIST_REPLY: Hey there! We can help out in English via Twitter, but we also have Indonesian support via
+
+g017	other_unclear	escalate	ANGER=0
+  MSG: if you don’t help me i’m gonna switch for apple music.
+  HIST_REPLY: We've just sent you a bit more info over DM. We'll carry on helping out there
+
+g018	content_availability	auto	ANGER=0
+  MSG: why was Jersey Devil by Ducktails removed?
+  HIST_REPLY: Hey! Licensing agreements can affect music availability. There's info about Spotify conten
+
+g019	billing_subscription	escalate	ANGER=0
+  MSG: Why send me an email saying I can get premium for $99/yr then when i go to do so, you tell me I am not eligible .. Not fair Spotify.. Not Fair!
+  HIST_REPLY: Hey there! Could you send us your account's username or email address via DM? We'll take a
+
+g020	other_unclear	escalate	ANGER=0
+  MSG: My doesn't work since I tried to listen new album. After a couple of songs, I can't listen to U2 and nothing else. It's blocked. Just in case: I wouldn't have listened again anyway...
+  HIST_REPLY: Hey Damiano, that doesn't sound right. Can you DM us your account's email address or usern
+
+g021	other_unclear	auto	ANGER=0
+  MSG: im mad that day6 nd got7 arent on spotify
+  HIST_REPLY: Hey there! Sometimes content gets temporarily removed because of licensing changes. Hopefu
+
+g022	other_unclear	auto	ANGER=0
+  MSG: Yo, I find Nicki Minaj offensive. Any chance of a block button
+  HIST_REPLY: Hi, help's here! We hope you vote for this idea in our community post here: [link] Let us  || Aww. That made us blush! [link] 💚
+
+g023	playback_technical_bug	auto	ANGER=0
+  MSG: Hey the artist app for Android i pretty broken, crashes when im trying to see my stats
+  HIST_REPLY: Hi there! Our friends in Artist Support are the right folks to help with this. You can get
+
+g024	other_unclear	escalate	ANGER=0
+  MSG: why does this happen? If I search for a song, then from that point on it will only play songs that relate to the previous search... [link]
+  HIST_REPLY: Hi Stephen, help's here! Can you tell us the make &amp; model of your phone along with the || Since you're already on the latest app version, can you also DM us your account's email ad
+
+g025	general_inquiry	escalate	ANGER=0
+  MSG: I'm trying to switch credit cards but it keeps trying to get me to sign up for student account...how do I avoid this?
+  HIST_REPLY: Hi Chris! Can you DM us your account's username or email address? We'll take a look and se
+
+g026	account_access	auto	ANGER=0
+  MSG: having problems accessing my account tried to reset password but no link has been received by email to do this.
+  HIST_REPLY: Hey Sarah, help's here! Can you try resetting your password at [link] using a private or i
+
+g027	general_inquiry	auto	ANGER=0
+  MSG: hi, can you turn your playlists to private? Thank you
+  HIST_REPLY: Hey! You can follow the steps under the "Playlist privacy" section of this link: [link] We || You're welcome! Give us a shout if you need anything else. We're... [link]
+
+g028	general_inquiry	auto	ANGER=0
+  MSG: hey when available in venezuela?
+  HIST_REPLY: 2: Be sure to add your email at [link] to be first to hear || 1: Hey there! We don't have any info right now, but we're launching in new countries as of
+
+g029	general_inquiry	escalate	ANGER=0
+  MSG: Hey how do I improve what songs you give me in my discover because there dislike button is gone and I rarely find songs I like
+  HIST_REPLY: Hey! The cavalry's here. Can you DM us your account's username or email address? We'll tak
+
+g030	other_unclear	auto	ANGER=0
+  MSG: Dear can you PLEASE tell your programmers to delete the “dildos &amp; more dildos” ad from the Classic Christmas playlist - and any other “family” playlists. Your algorithms must have at least that much intelligence.
+  HIST_REPLY: Hey there! We didn't mean to cause any offense. We'll pass the feedback on to the right pe || We hear you 🎧 Rest assured, your feedback will be passed on to the right folks. Anything e
+
+g031	other_unclear	auto	ANGER=0
+  MSG: hi why isn't Taylor's new album out on Spotify yet
+  HIST_REPLY: Hey Dev! 'Reputation' isn't available to stream just yet – stay tuned! For now, check out  || Fingers crossed we'll be able to have it soon, but there's more info about Spotify content || We're always working hard to make as much content available as possible. We'll keep at it,
+
+g032	other_unclear	auto	ANGER=0
+  MSG: why isn't reputation on spotify yet it's been a week [link]
+  HIST_REPLY: Hey! We're afraid it all depends on licensing agreements. Don't worry, we’ll have it avail
+
+g033	account_access	escalate	ANGER=0
+  MSG: finding it difficult to cancel my sons premium account, not accepting login details, help!
+  HIST_REPLY: Hi Scott, we can help. Can you DM us your son's email address for his account? We'll check
+
+g034	general_feedback_complaint	escalate	ANGER=1
+  MSG: I absolutely hate
+  HIST_REPLY: Hey there, don’t worry, we're here to help. What’s happening exactly? Can you let us know  || Got it, that doesn't sound cool. Does logging out &gt; restarting the device &gt; logging  || Hmm, that's odd. Could you DM us with your account's email address and username? We'll tak
+
+g035	other_unclear	auto	ANGER=2
+  MSG: So when will be on ? Bcs its about damn time!!! right ? Counting days to see you jae🤓
+  HIST_REPLY: Hey! Fingers crossed we'll be able to have it soon, but there's info about Spotify content
+
+g036	other_unclear	escalate	ANGER=0
+  MSG: the ads and Shuffle only play for a free account are cool and manageable but suggested songs are not anyway to get rid of them
+  HIST_REPLY: Hey Nicholas! We've just sent you a DM 🙂
+
+g037	other_unclear	auto	ANGER=0
+  MSG: when I get a Snapchat msg it randomly pauses my music
+  HIST_REPLY: Hi Vaint! Can you let us know the device, OS, and Spotify version you're rocking? || Awesome. Can you also let us know the make and model of your device? || Thanks! Can you try logging out, restarting your device, then logging back in? Let us know || You're welcome! We're glad that did the trick. If
+
+g038	account_access	escalate	ANGER=0
+  MSG: My iPhone logged me out &amp; now says my log-in is incorrect. When I try to reset my password it says, The CSRF is invalid.
+  HIST_REPLY: Hey there! Could you DM us your Spotify account's email address? We'll take a look under t
+
+g039	general_inquiry	escalate	ANGER=0
+  MSG: I moved to another country and I can't change my country in my account... What can I do?
+  HIST_REPLY: Hey Magda! Do you get an error message when trying to update? Also, can you DM us your acc
+
+g040	feature_request	auto	ANGER=0
+  MSG: regret adding explicit songs to my study playlist now Im listening to it at my internship 😅 maybe a filter would be a cool feature?
+  HIST_REPLY: Hey! We can see how that'd be handy. You can support the idea by voting for it here: [link || No worries. We'll keep passing on all feedback about it so our devs can see it's a popular
+
+g041	general_inquiry	escalate	ANGER=0
+  MSG: been a student since sept &amp; forgot to change my details so been paying full price premium. How do I change back to a student?
+  HIST_REPLY: Hey, help's here! Can you DM us your account's email address? We'll check backstage /GK [l
+
+g042	other_unclear	escalate	ANGER=0
+  MSG: Also ye I’m on Spotify. And Apple Music (I produced the song for ) [link]
+  HIST_REPLY: Hi there! We've just replied to your DM. We'll carry on helping there
+
+g043	billing_subscription	escalate	ANGER=0
+  MSG: I had a student premium account - had been charged £5 a month and the past 2 months i have been charged £10 without warning
+  HIST_REPLY: Hi! We've just sent a DM your way. Let's carry on chatting there
+
+g044	other_unclear	auto	ANGER=0
+  MSG: Anyone else's stop playing when they open twitter? Doing my head in 😤
+  HIST_REPLY: Hey there, that doesn't sound cool. Could you let us know the device and operating system  || Thanks. Can you let us know the Spotify version you're rocking? Also does logging out, res
+
+g045	general_feedback_complaint	auto	ANGER=0
+  MSG: Hi, how can I get rid of all radios in my most recent played section? It's quite annoying to see them there...
+  HIST_REPLY: Hey, the cavalry's here! Can you let us know which device, operating system, and Spotify v || Thanks! The image shows which Spotify version you're on. Currently, it isn't possible to r
+
+g046	feature_request	auto	ANGER=0
+  MSG: Please add Podcasts to the Search! I would really love to be able to search by name or topic, etc.
+  HIST_REPLY: Hi Julie! We can see how that’d be handy. Thanks for taking the time to reach out – your f || No worries! We're glad we could help out. If you ever need anything else, just shout and w
+
+g047	billing_subscription	escalate	ANGER=0
+  MSG: help! My daughters premium for family invitation code is not working (invalid) however it is correct, and was cut and pasted to ensure no errors. Help!
+  HIST_REPLY: Hey Lynne, help's arrived! Could you send us a DM with your account's email address? We'll
+
+g048	general_feedback_complaint	auto	ANGER=1
+  MSG: Hi in the space of a 15 minute listen, my music has cut out a ridiculous amount of times. Very annoying. Listening on Bluetooth speaker via iPhone 7.
+  HIST_REPLY: Hi Sarah! Can you let us know what iOS and version of Spotify you're using? We'll see what
+
+g049	billing_subscription	escalate	ANGER=1
+  MSG: Dear , it would be nice if I didn't lose my offline playlist because I can't afford premium, sincerily, a pissed off user.
+  HIST_REPLY: Hey! Can you DM us your account's username and email address? We'll take a look backstage 
+
+g050	account_access	escalate	ANGER=0
+  MSG: so my account is hacked into again. This is the 3rd time in the past 6 months and I've changed my password several times. Can you please help fix this. I don't want to keep paying for premium if someone else keeps hackin
+  HIST_REPLY: Hey there! Can you DM us your account's email address? We'll take a look backstage /RB [li
+
+g051	account_access	escalate	ANGER=0
+  MSG: help! Cant reset password !
+  HIST_REPLY: Hi Zeb. Help's arrived! Could you send us your email address via DM? Also, if you've recei || We're happy to hear everything's fine now! If you ever need us again, just give us a shout
+
+g052	account_access	escalate	ANGER=0
+  MSG: I have an issue logging into spotify with facebook. Ive tried using the music app method on facebook but it doesnt exist there if i try to change my password your website tells me its controlled through facebook and when
+  HIST_REPLY: Hey Adam, help's here! Could you shoot us a DM with your account's email address? We'll ta
+
+g053	other_unclear	escalate	ANGER=1
+  MSG: Hey 4 trackers?? WTF? [link] #Spotify
+  HIST_REPLY: Hey Antonio! We're having a little trouble opening that page. Can you tell us what's happe || Thanks! Could you DM us the device, operating system and Spotify version you're using? We' || No worries! We have some info about cookies, other technologies and third-party data colle
+
+g054	content_availability	escalate	ANGER=0
+  MSG: I am getting the error "This song is not available" from a lot of songs that I used to listen... What's happening?
+  HIST_REPLY: Hey Paula! Can you DM us your account's email address and username? We'll take a look back
+
+g055	other_unclear	auto	ANGER=0
+  MSG: Hello, I really hope u guys put "Mic Drop Remix" by , &amp; in one of most popular playlists
+  HIST_REPLY: Hi there, thanks for the feedback! Our Curation team are independent &amp; use taste, data
+
+g056	billing_subscription	escalate	ANGER=0
+  MSG: okay, so my ex had is account linked to my bank. And we broke up and I couldn’t cancel it and it charged my card... I’m help
+  HIST_REPLY: Hey! The cavalry's here. Can you DM us the account's username or email address? We'll take
+
+g057	general_inquiry	escalate	ANGER=0
+  MSG: my desktop player and iphone player are skipping through songs, is the platform down?
+  HIST_REPLY: Hey Leslie, help's here! Can you DM us your account's email address or username? We'll tak
+
+g058	billing_subscription	auto	ANGER=0
+  MSG: Hey is there any way to have a student discount as a high-school student?
+  HIST_REPLY: Hi there! Right now the student discount is only available for students in accredited coll || You're welcome! If you need anything else, just give us a shout 🙂
+
+g059	other_unclear	auto	ANGER=0
+  MSG: me and have got a good new idea for playlists. dm me. [link]
+  HIST_REPLY: Hi Sean! Any bright ideas? Suggest it in our Community at [link] and get support from othe
+
+g060	other_unclear	escalate	ANGER=0
+  MSG: I have an issue with my spotify account, I have DM'd you about it.
+  HIST_REPLY: Hey Nathan! We've just sent a DM your way. Let's carry on chatting there
+
+g061	other_unclear	auto	ANGER=0
+  MSG: Hi! Is there anyway to expedite this? Understandable it's the weekend but these wrong tracks have taken over our profile ☹️ [link]
+  HIST_REPLY: Hi there, sorry to hear that. We’d recommend reaching out to your distributor. They'll wor
+
+g062	other_unclear	escalate	ANGER=0
+  MSG: I can't access my account, keeps saying oops somethings wrong try later, same message after waiting until later
+  HIST_REPLY: Hey Tyler, help's here! Could you send us a DM with your account's email address or userna
+
+g063	other_unclear	auto	ANGER=0
+  MSG: Why does our Spotify keep deleting downloaded songs? It’s happening every week 😒
+  HIST_REPLY: 2: at [link] This should help sort out your unsynced music. Let us know if we can help wit || 1: Hi Grace, help's here! We're sorry to hear that. We'd suggest to check out the steps un
+
+g064	other_unclear	auto	ANGER=0
+  MSG: Hey I can’t see the new album anywhere. Where could I find it? Asking for a friend #reputation
+  HIST_REPLY: Hey! We’ll have it available to you as soon as it’s available to us: [link]
+
+g065	other_unclear	auto	ANGER=0
+  MSG: all i want for xmas is for Eden's Crush debut album "Popstars" to be available for my streaming pleasures. #justiceforyouknowican
+  HIST_REPLY: Hey! We’ll have it available to you as soon as it’s available to us. For more info about c
+
+g066	billing_subscription	escalate	ANGER=0
+  MSG: why can I not update my payment information due to card number change?
+  HIST_REPLY: Hi Shawn, help's here! Can you send us a DM with your account's username and email address
+
+g067	general_inquiry	escalate	ANGER=0
+  MSG: Just curious-why can't I play Podcasts on my Pixel 2 through my Sonos?
+  HIST_REPLY: Hi Daniel, help's here! Can you let us know your phone's Android and Spotify versions? We' || Got it. Can you try to see if logging out &gt; restarting your device &gt; logging back in || Alright. Can you check if reinstalling the app makes a difference? Just follow the steps a || No worries. Can yo
+
+g068	other_unclear	auto	ANGER=0
+  MSG: #bugReport songs are prematurely ending. Somewhere between 50-90% of song plays, then next song starts without fade #iOS latest
+  HIST_REPLY: Hey Jeff, help's here! Can you let us know your device and Spotify version? We'll see what || Great! Let us know if there's anything else we can help you with. Happy listening 🎶
+
+g069	account_access	escalate	ANGER=0
+  MSG: love the new app but it’s not letting me login for some reason, tried multiple artist linked accounts 🤔
+  HIST_REPLY: Hey. We've made a few tweaks backstage, so this should now be fixed up. Let us know if not
+
+g070	billing_subscription	auto	ANGER=0
+  MSG: experiencing low quality audio on Win10 desktop app thru premium acct: set to HQ but distorting like 128kbps. Any ideas?
+  HIST_REPLY: Hey Ryan, help's here! Can you let us know the device and Spotify version you're using? We
+
+g071	billing_subscription	escalate	ANGER=0
+  MSG: Hi how come the app has disappeared from my TV when I pay for premium service? Am I going to get a discount for less service?
+  HIST_REPLY: Hey there! Could you DM us your TV's make and model? Keep us posted /DF [link]
+
+g072	other_unclear	auto	ANGER=0
+  MSG: Let’s see how long it takes to update the app to support the iPhone X... still waiting on that Apple Watch app... 😒 [link]
+  HIST_REPLY: Hey there! We don't have any info to share on this right now, but our developers are looki
+
+g073	account_access	escalate	ANGER=0
+  MSG: been hacked need some help
+  HIST_REPLY: Hi! We've just sent you a bit more info over DM
+
+g074	other_unclear	escalate	ANGER=0
+  MSG: It's impossible to create account. I tried first to Sign Up using facebook - failed, then I cleared all cookies, reloaded the page and filled in the registration form. Hangs forever...
+  HIST_REPLY: Hey there! We'll help out. Can you DM us the email address you're trying to create an acco
+
+g075	other_unclear	auto	ANGER=0
+  MSG: Love these detailed updates from / - so great to download nearly 100MB of ???? each week or two! [link]
+  HIST_REPLY: Hi Caspar. Thanks for bringing this up. We’re always testing things in order to improve &a || We'll keep that in mind! Just give us a shout if you need anything else. We're... [link]
+
+g076	billing_subscription	escalate	ANGER=0
+  MSG: Hi my name is Diana and I do not have an account with you guys, but I have recently had unauthorized charges on my bank account for Spotify since August 8, 2017 of $9.99. Multiple charges followed of the same amount Sept
+  HIST_REPLY: Hey Diana! Don't worry, we're here to help. Can you send us any email addresses you have v
+
+g077	other_unclear	escalate	ANGER=0
+  MSG: The audacity has by playing songs that are not in my playlist is unreal.
+  HIST_REPLY: Hi, sorry to hear that. Are you currently on Free or Premium? Do you also hear the song in || Got it. Could you DM us your account's username and email address? We'll take a look backs
+
+g078	general_inquiry	auto	ANGER=0
+  MSG: . how come the app is not updated for iPhone X yet???
+  HIST_REPLY: Hey! We understand - we’re working on it as we speak. Stay tuned 😁 || Right on! Let us know if you need anything else. In the meantime, we hope you have a... [l
+
+g079	billing_subscription	auto	ANGER=0
+  MSG: Can I buy a year's worth of Family Sub up front? I don't see option on my acct page, and gift cards are for Premium, not Fam.
+  HIST_REPLY: Hey! We're afraid yearly payments for the Family plan isn't possible right now, but we'll 
+
+g080	general_inquiry	auto	ANGER=0
+  MSG: When will your iOS apps be updated to support iPhone X?
+  HIST_REPLY: Hey Jack! We don't have any info on this right now, but we'll let the right team know it's
+
+g081	other_unclear	auto	ANGER=0
+  MSG: I️ just want to listen to new album
+  HIST_REPLY: Hi, Taylor Swift's 'Reputation' isn't available to stream just yet – stay tuned! For now, 
+
+g082	general_inquiry	auto	ANGER=0
+  MSG: Just updated Spotify and Sonos. Now I can't select any of my devices. Why not?
+  HIST_REPLY: Hey David! What operating system are you using? Is your Sonos not showing up at all from t
+
+g083	general_inquiry	auto	ANGER=0
+  MSG: how do I find and copy the link to my Spotify profile if I signed up with Facebook?
+  HIST_REPLY: Hey Callie! Is this what you're looking for: [link]
+
+g084	billing_subscription	escalate	ANGER=0
+  MSG: my account just got charged $10 and I haven’t signed up for anything, can you lead me in a direction to get money back?
+  HIST_REPLY: Hey there! Could you DM us your account's username and email address? We'll take a look ba
+
+g085	account_access	escalate	ANGER=0
+  MSG: I am unable to login to my account? Tried resetting, it even had my profile name like I was already logged in at the top. Help!
+  HIST_REPLY: Hey, help's arrived! Could you send us a DM with your account's email address? We'll take 
+
+g086	general_inquiry	auto	ANGER=0
+  MSG: I'm an irish student studying in a uni that is technically in the UK, how can i avail of the discount?
+  HIST_REPLY: Hey there, helps here! Here's all the information you need to know about the UNiDAYS stude
+
+g087	billing_subscription	escalate	ANGER=0
+  MSG: I need a refund from you guys, I cancelled my service with you, two months ago.
+  HIST_REPLY: Hey, help's here! Did you got charged again? Also, can you DM us your account's email addr
+
+g088	general_inquiry	auto	ANGER=0
+  MSG: How do I easily delete the currently playing song from my playlist? iPhone 7.
+  HIST_REPLY: Hey! This isn't possible right now, but your feedback has been noted and passed onto the t || We understand. Rest assured, it's definitely something for the team to consider, and we've
+
+g089	general_inquiry	escalate	ANGER=0
+  MSG: i recently tried to play music on my HP Chromebook and its not letting me pick a song. Even when i use my phone as a remote it connects fine but it still wont let me pick a song. What should i do??
+  HIST_REPLY: Hi Alysia! Can you send us a DM with your username or email address? We'll take a look und
+
+g090	other_unclear	escalate	ANGER=0
+  MSG: I've downloaded like 3000 songs; I still have memory on my device, but it doesn't let me keep downloading. :(
+  HIST_REPLY: Hey! The cavalry's here. Can you DM us your account's username or email address? We'll tak
+
+g091	general_inquiry	auto	ANGER=0
+  MSG: new to this, created a play list, hit shuffle but just plays all Beatles tracks on there-nothing else?
+  HIST_REPLY: Hi Alan, help's here! Can you send us a link to your playlist? Just follow the steps at [l
+
+g092	billing_subscription	auto	ANGER=0
+  MSG: Why can't Family Plan subscribers pay a year in advance and save like normal premium subscribers??
+  HIST_REPLY: Hey there! We hear you 🎧 Rest assured, your feedback will be passed on to the right folks
+
+g093	other_unclear	escalate	ANGER=0
+  MSG: hey I moved back from Amsterdam months ago and my app is now showing me this ? I'm in the uk [link]
+  HIST_REPLY: Hey there, help's here! Could you shoot us a DM with your account's username and email add || You can just DM us your account's email address and a link to your Facebook profile. We'll
+
+g094	account_access	escalate	ANGER=0
+  MSG: Infuriated! I need to cancel my subscription. I can’t do that via the app &amp; I can’t login for help as I can’t access my FB
+  HIST_REPLY: Hey Abbie! Don't worry, we're here to help. Can you DM us your account's email address? We
+
+g095	other_unclear	auto	ANGER=0
+  MSG: I wonder when will fix the genre search
+  HIST_REPLY: Hey there! We'd love to help out. Can you tell us more about this? || 2: at [link] and get support from other users || 1: Thanks for the feedback! We'll be sure to pass it onto the relevant folks. You can also
+
+g096	billing_subscription	escalate	ANGER=0
+  MSG: seems as if I lost my student discount. Can you help with this? I got charged $10.71 instead of $5.35/$5.40.
+  HIST_REPLY: Hi there, that doesn't sound good. Can you DM us your account's email address? We'll take 
+
+g097	playback_technical_bug	auto	ANGER=0
+  MSG: Hey why does your app crash when I press play on any of my music??
+  HIST_REPLY: Hey there! Can you let us know your device, operating system, and Spotify version? We'll s || Got it. Are you getting any specific error messages when the app crashes? If so, can you s || Hmm. Does logging out and restarting your device help? Let us know how it goes
+
+g098	other_unclear	auto	ANGER=0
+  MSG: please want to add cryogenic - rocking hard 👏👏👏
+  HIST_REPLY: Hey there. We’ll have it available to you as soon as it’s available to us! [link]
+
+g099	other_unclear	escalate	ANGER=0
+  MSG: please check your DM
+  HIST_REPLY: Hi there. We've replied to your DM. Check it out 🙂
+
+g100	other_unclear	auto	ANGER=0
+  MSG: . that was NOT 30 minutes
+  HIST_REPLY: Hey there! Can you let us know what's happening exactly? We'll see what we can suggest || That doesn't sound good! Did the app crash at any point during the 30 minutes? That can ca || 2: listening in full after hearing the offer? || 1: Thanks for confirming! Just to check, did you definitely watch t
+
+g101	general_inquiry	auto	ANGER=0
+  MSG: Anyone else having trouble the iPhone app since the last update?
+  HIST_REPLY: Hey there! What's happening exactly? Can you also let us know your iPhone's model and the  || Thanks. Are you getting any error messages? If you can send us a screenshot of what you ca
+
+g102	other_unclear	auto	ANGER=0
+  MSG: any plans to change Spotify Family to make it possible to share with family members I don't live with? I don't want to unsubscribe but the policy is bonkers.
+  HIST_REPLY: Hey! Currently, all members of a Premium for Family plan must reside at the same address. 
+
+g103	billing_subscription	escalate	ANGER=1
+  MSG: why can't I pay for spotify premium wtf? fix this
+  HIST_REPLY: Hey Chris, we're here to help. Can you DM us your account's email address or username? We'
+
+g104	general_inquiry	auto	ANGER=0
+  MSG: Is it possible to either get a student account or discount as a non-profit if a higher educational institution would like to use Spotify for work purposes?
+  HIST_REPLY: Hey Joanna! We're afraid this type of discount isn't available, but you can vote for the o
+
+g105	general_feedback_complaint	auto	ANGER=1
+  MSG: how many times do I have to tell you that I hate Modest Mouse
+  HIST_REPLY: Hi Taylor! The cavalry's here. What's happening exactly? We'll see what we can do || Got it. Just to check, are you referring to a Daily Mix or your Discover Weekly?
+
+g106	billing_subscription	escalate	ANGER=0
+  MSG: i cancelled your subscription but y’all still charged me $10???? i want a refund [link]
+  HIST_REPLY: Hey! Help's here. Can you DM us your account's username and email address? We'll check bac
+
+g107	other_unclear	auto	ANGER=0
+  MSG: pleaseeee update the app for the iPhone X
+  HIST_REPLY: Hi Josh! We don't have any info on this right now, but your feedback has been noted. We'll
+
+g108	other_unclear	escalate	ANGER=0
+  MSG: got email for a download for my b-day won't let me log on at all for download of free month tried contacting you
+  HIST_REPLY: Hi Cathy. Don't worry, help's here. First up, can you DM us your username or email address
+
+g109	content_availability	auto	ANGER=0
+  MSG: Why is Francesca () - “all I had” not on ?!
+  HIST_REPLY: Hey Mark! We’d love to have all of her stuff available, but we have some info about conten || We're afraid that's not possible right now, but your feedback's been noted and passed on t
+
+g110	other_unclear	auto	ANGER=0
+  MSG: Dear I just want to know when can I find Agust D and RM songs? [link]
+  HIST_REPLY: Hey there! Can you let us know the country what country your account is set to? We'll see 
+
+g111	other_unclear	auto	ANGER=0
+  MSG: parabens spotify, minhas playlists ficariam lindas se eu colocasse essas fotos porem vocês nojentos nao permitem trocar pelo celular eu exijo agora uma denuncia coletiva pra todos nós podermos colocar capa na playlist pe
+  HIST_REPLY: Hey there! We can see how that’d be handy. Thanks for taking the time to reach out – your 
+
+g112	other_unclear	auto	ANGER=2
+  MSG: WHY ISNT REPUTATION ON SPOTIFY?!?!
+  HIST_REPLY: Hi! Taylor Swift's 'Reputation' isn't available to stream just yet – stay tuned! For now,  || Awesome! Let us know if you ever need us again. We'd be... [link]
+
+g113	billing_subscription	escalate	ANGER=0
+  MSG: hi. i dnt remember setting up an address when i started the family plan.pls help.
+  HIST_REPLY: Hey Ivy! We just replied to your DM with more information. Check it out 🙂
+
+g114	playback_technical_bug	auto	ANGER=0
+  MSG: Sort out your Chrome web app I'm trying to get through my working day here 😢 👍 #glitchy
+  HIST_REPLY: Hey Andy! Does clearing your cache/cookies help? You might also want to try using an incog
+
+g115	general_inquiry	auto	ANGER=0
+  MSG: when will #reputation be available for streaming?
+  HIST_REPLY: Hi Syasya! Taylor Swift's 'Reputation' isn't available to stream just yet. For now, check 
+
+g116	billing_subscription	auto	ANGER=1
+  MSG: PLEASE HELP!!!! Upgraded to family premium but did not get welcome email to invite family . __email__
+  HIST_REPLY: Hey, help's arrived! To invite family members, head here: [link] Let us know if you need a
+
+g117	general_inquiry	auto	ANGER=0
+  MSG: or should be doesn’t care. How do I speak to someone
+  HIST_REPLY: Hey! Don’t worry, we can help. What’s happening exactly? Can you let us know the device/OS
+
+g118	general_inquiry	auto	ANGER=1
+  MSG: you want to explain why the fuck The Great Gatsby soundtrack ain’t on ya app??
+  HIST_REPLY: Hey there! Sometimes content gets temporarily removed because of licensing changes. Hopefu
+
+g119	billing_subscription	escalate	ANGER=0
+  MSG: why are you charging my Cridet card 10 days before the due date ?
+  HIST_REPLY: Hi there. Can you DM us your account's email address? We'll take a look backstage /LM [lin || Cool. Glad to hear everything is sorted. Just give us a shout if we can help with anything
+
+g120	billing_subscription	escalate	ANGER=0
+  MSG: my student discount has been taken off my account and I have been charged £14.99 this month. Please help I’m still a student 😩
+  HIST_REPLY: Hey Claire, help's here! Can you DM us your account's email address? We'll check backstage
+
+g121	other_unclear	escalate	ANGER=0
+  MSG: Dear , I️ understand you mean well when you give me suggestions after I️ play for the 100th time But just like with yes I️ do want to continue with my current programming because it’s THAT GOOD. Sincerely, Me #Unapologet
+  HIST_REPLY: Hey Laura! Could you DM us your account's username or email address? We'll see what we can || We understand. We'd still like to check things backstage. Can you send us your account's e
+
+g122	billing_subscription	escalate	ANGER=0
+  MSG: invite link for family accaunt does not work. I sent already several times the link. I tried already different browsers
+  HIST_REPLY: Hey Ismael, we're here to help! Can you DM us your and your family member's usernames or e
+
+g123	billing_subscription	escalate	ANGER=0
+  MSG: can you please check the status of my payment. DM please. thanks!
+  HIST_REPLY: Hey Kenjie, help's here! Could you DM us your account's username/email address? We'll chec
+
+g124	general_inquiry	escalate	ANGER=1
+  MSG: My punk-ass (highschool) brother entered my college info to get the discount. He's since unsubscribed but Spotify still says my college info is attached to another account. Is there a way to fix this or am I out of luck?
+  HIST_REPLY: Hey there! Can you DM us the email address linked to the account that was created? We'll t
+
+g125	other_unclear	auto	ANGER=0
+  MSG: has the best costumer support I had a problem with my account and literally 2 minutes later it was fixed
+  HIST_REPLY: Hey there, you made us blush a bit! You know where to find us if there's anything else you
+
+g126	other_unclear	auto	ANGER=0
+  MSG: Getting put on blast 📣📣📣📣📣📣📣 [link]
+  HIST_REPLY: Hey Hazel! We’ve recently made some improvements to our shuffle algorithm. We’d love to he
+
+g127	feature_request	escalate	ANGER=0
+  MSG: wish you would make it so you could cancel free trials in the app!!
+  HIST_REPLY: We've just sent a DM your way. Let's carry on chatting there 🙂
+
+g128	general_inquiry	escalate	ANGER=0
+  MSG: I submitted a form yesterday and haven't even got the automated email saying it has been received. Should i send it again?
+  HIST_REPLY: Hey! We'd love to help. What's happening exactly? Can you DM us your account's username or
+
+g129	other_unclear	escalate	ANGER=0
+  MSG: Hey all the music in my library disappeared....why
+  HIST_REPLY: Hey there! Can you DM us your account's email address or username? We'll take a look /NS [
+
+g130	general_inquiry	auto	ANGER=0
+  MSG: Dear Spotify, I have a playlist of 788 songs. But recently it became almost impossible listening to the very last songs I added when I use shuffle mode. Is there anyway we can solve this? Thank you in advance.
+  HIST_REPLY: Hi! We’ve recently made some improvements to our shuffle algorithm. We’d love to hear your || It'll be good to hear your feedback too. Don't worry, we'll make sure to pass on your comm
+
+g131	other_unclear	auto	ANGER=0
+  MSG: I heard wants to cancel videos?? Please don't! Traffic Jams was dope! And I really want to see the one
+  HIST_REPLY: Hey Peter! We don't have any info on this right now, but we'll be sure to announce any new || Just give us a shout if you need anything. Enjoy your music 🎶
+
+g132	billing_subscription	auto	ANGER=0
+  MSG: Premium gives you unlimited skips. Plus you can play anywhere, even without wifi. Try it free. [link]
+  HIST_REPLY: Hey Greg! Here is some more info on our Free tier: [link] Hope that helps || You're welcome! If you ever need anything else, just shout and we'll come running 🏃
+
+g133	playback_technical_bug	auto	ANGER=0
+  MSG: I'm pretty close to unsubscribing to If my app doesn't stop crashing👿👿👿
+  HIST_REPLY: Hey! Don’t worry, we can help. What’s happening exactly? Can you let us know the device/OS
+
+g134	other_unclear	auto	ANGER=0
+  MSG: Bring Crazy Bitch back
+  HIST_REPLY: Hi there. Sometimes content becomes unavailable due to licensing. More info at [link] Any 
+
+g135	general_inquiry	auto	ANGER=0
+  MSG: How does one get a live support representative from Spotify?
+  HIST_REPLY: Hey, we can help! Can you tell us what's happening exactly and on what device?
+
+g136	other_unclear	auto	ANGER=0
+  MSG: The secret to making a #1 song in 2017: interviews songwriters/producers Julian Bunetta and John Ryan [link]
+  HIST_REPLY: We're glad to hear that! We're always happy to help. We'll be here if you need anything el
+
+g137	other_unclear	escalate	ANGER=0
+  MSG: When using Google Assistant on my phone "Play AC/DC", Spotify will launch, artist page will open, but playback does not start.
+  HIST_REPLY: Hi there! Can you let us know what phone and version of Spotify you're using? We'll see wh || Thanks. Can you give this a try: log out from Spotify &gt; restart your device &gt; log ba || Can you try following the steps here in linking and setting the app as your phone's defaul || Could you send us 
+
+g138	general_inquiry	auto	ANGER=0
+  MSG: Yo, how does a guy register for ?
+  HIST_REPLY: Hi there! It’s great to hear you’re looking to put music on Spotify. You can find all the  || Hey there. Let's get you on board as an artist first! Get started here: [link]
+
+g139	other_unclear	escalate	ANGER=0
+  MSG: Dear i cant register on my prepaid. Please notice and help. 😣😣😣
+  HIST_REPLY: Hi Marjorie! We've just replied to your DM. Check it out. We'll carry on helping you there
+
+g140	billing_subscription	escalate	ANGER=0
+  MSG: hello i really need your help i cannot seem to see the names of all the accounts in my family premium package. Need to manage
+  HIST_REPLY: Hi there! Could you send us a DM with your account's email address or username? We'll take
+
+g141	other_unclear	auto	ANGER=0
+  MSG: Why are you guys discriminating against my boys and . Should be uploaded
+  HIST_REPLY: Hey Thomas! We’re working hard with rights holders to get more of the best content on the 
+
+g142	other_unclear	auto	ANGER=0
+  MSG: what’s the presale code for #dvsn
+  HIST_REPLY: Hi there. Pre-sale codes are being sent out by email to some of dvsn's biggest fans on Spo || Awesome! In case you have other concerns, don't hesitate to get back in touch. We're alway
+
+g143	feature_request	auto	ANGER=0
+  MSG: Yo I think you should looking into adding Slade’s albums over 900,000 are waiting #sladeonspotify [link]
+  HIST_REPLY: Hey there! We’d love to have all of their stuff available, but we have some info about con
+
+g144	other_unclear	auto	ANGER=0
+  MSG: your Windows 10 Mobile app UI is s***. Especially coming from using Groove Music massive downgrade.
+  HIST_REPLY: Hi Devon! Sorry to hear that you feel that way. Can you let us know what's happening exact || Hey there! That's just a personalized signature of the person helping you out. Hope we wer
+
+g145	other_unclear	auto	ANGER=0
+  MSG: So when ion mess with you by goin on 🤔🤔🤔🤔🤔
+  HIST_REPLY: Hey! Fingers crossed we'll be able to have it soon, but there's info about Spotify content
+
+g146	feature_request	escalate	ANGER=0
+  MSG: . New Feature? "Failure to Load" stops service, forces users to tap and load new commercials. #skanks #greedy #deceitful #CrapUX
+  HIST_REPLY: Hey, that doesn't sound right. Can you let us know the device, operating system, and Spoti || We've just sent you a bit more info over DM. We'll carry on helping out there
+
+g147	content_availability	auto	ANGER=0
+  MSG: Where is #reputation ???? [link]
+  HIST_REPLY: Taylor Swift's 'Reputation' isn't available to stream just yet – stay tuned! For now, chec || You're welcome. If yo have any other questions, feel free to give us a tweet! Have a nice 
+
+g148	playback_technical_bug	auto	ANGER=0
+  MSG: Feel like tweeting. Also is buggy af. "Numb" &amp; "Angel of death" are two independent, very different songs, Hun. Don't glitch them😂
+  HIST_REPLY: Hey there! Can you send us the Song Links? Just tap the three dots &gt; Share &gt; Copy Li || Thanks. Everything looks good on our end. Just to check, are there local file versions of 
+
+g149	other_unclear	escalate	ANGER=0
+  MSG: Hello. I am having problem to re-activate a family member. System says that a code has been sendt to the mail, but no luck
+  HIST_REPLY: Hey there! Can you DM us your and your member's accounts' usernames or email addresses? We
+
+g150	general_feedback_complaint	auto	ANGER=1
+  MSG: Touch Preview topic is still #1 on the hot list of the forums, still hasn’t been added back. I still hate companies. [link]
+  HIST_REPLY: Hey! We have more info about this here: [link] Give us a shout if you have any questions
+
+g151	other_unclear	auto	ANGER=0
+  MSG: It was already enabled [link]
+  HIST_REPLY: Did the issue happen even after this option was enabled? If so, what device, operating sys
+
+g152	billing_subscription	escalate	ANGER=0
+  MSG: Premium for Students is habit forming. Play the songs you want, over and over. €4.99/mo. [link]
+  HIST_REPLY: Hey Liam! The student discount is for students of accredited colleges and universities. Yo || Hi! That should be for anyone eligible, not only in the US. Can you DM us your account's e || Hi, we hear you! We'll make sure to pass your feedback on to the relevant folks 😉 || Awesome! If you need any he
+
+g153	feature_request	auto	ANGER=0
+  MSG: can you please add Barking onto your app x
+  HIST_REPLY: Hi Pedro. We’d love to have the track available, but we have some info about content here:
+
+g154	general_inquiry	auto	ANGER=0
+  MSG: MØ tour presale issue: Montreal link goes to Boston show. Re-send with right link?
+  HIST_REPLY: Hey! Do you have any trouble with the link if you use an incognito window? Let us know
+
+g155	other_unclear	auto	ANGER=0
+  MSG: Please put Julion Alvarez's songs back on Spotify
+  HIST_REPLY: Hey Jenny! Thanks for reaching out. There's some info on Spotify content here: [link]
+
+g156	general_inquiry	escalate	ANGER=0
+  MSG: For some reason one of my family members cannot redeem her invitation. Do you have an email I can use to get in contact with support about this?
+  HIST_REPLY: Hey! We'd be happy to help out on Twitter, but you can also get in touch with us via email
+
+g157	general_feedback_complaint	auto	ANGER=0
+  MSG: you have such high quality branding but why are you adds so annoying? You have so much potential
+  HIST_REPLY: Thanks for your feedback - we'll pass it on. For now, check out [link] if you haven't had 
+
+g158	content_availability	auto	ANGER=0
+  MSG: for the third time this month all my downloaded music has been removed in the offline modus... im the only one on my account with one device connected to it. this is getting to be really frustrating
+  HIST_REPLY: Hi Jonah! Sorry to hear that. Check out the steps under “Downloads unexpectedly removed” a
+
+g159	billing_subscription	auto	ANGER=0
+  MSG: Mit Spotify Premium kannst du deine Musik auch offline hören, wenn du unterwegs bist. [link]
+  HIST_REPLY: Hi there! We have info about this here: [link] Let us know if you need more help || Thanks for the feedback – we appreciate it! We’ll get this passed onto the right team. Let
+
+g160	feature_request	auto	ANGER=0
+  MSG: hi! How can I enable displaying of what I'm listening to on Facebook? I already have the feature enabled on the app. [link]
+  HIST_REPLY: Hey! We're afraid we no longer share your listening activity to Facebook. Rest assured you || You're welcome! If you ever need us again, just give us a... [link] 🙂
+
+g161	other_unclear	escalate	ANGER=1
+  MSG: wtf music only plays on my phone when the app is open?? when screen is locked or i’m on another app it stops if i wanted youtube i’d b on youtube 🆘
+  HIST_REPLY: Hey Heli! Can you tell us what device, operating system, and Spotify version you're using? || Thanks for the info. Can you tell us if this happens when you launch any apps while listen || Hmm. Can you tell us if this started happening after an app update? Was it even acting lik || Alright. Could you
+
+g162	general_inquiry	auto	ANGER=0
+  MSG: Hey how do I get y’all to add music. It’s unfair that Madgear and the missile kid isn’t under my chemical romance’s music but you have like six live versions of stuff from the black parade. Danger days was better.
+  HIST_REPLY: Hey there! Licensing agreements can affect music availability. We have more info here: [li
+
+g163	general_inquiry	auto	ANGER=0
+  MSG: Trying to give my money yet they won't take it 🤔. Should I go Apple or Tidal instead?
+  HIST_REPLY: Hey Travis, help's here! Can you tell us what's happening exactly? We'll see what we can s || That's strange. Can you try signing up for Premium here: [link] Let us know how you get on
+
+g164	billing_subscription	escalate	ANGER=0
+  MSG: I have never signed up for an account but my credit card is being billed every month. Please help.
+  HIST_REPLY: Hi Mindibeth, that doesn't sound good. Could you DM us a screenshot of the charge on your 
+
+g165	general_feedback_complaint	auto	ANGER=0
+  MSG: Why did you stop with showing the lyrics. I was so disappointed to find them gone, is there a good reason why?
+  HIST_REPLY: Hey Anka! You can get lyrics and annotations on selected tracks on the mobile app via our  || We hear you! We've taken note of your feedback - we'll make sure to pass it on to the righ
+
+g166	billing_subscription	escalate	ANGER=0
+  MSG: If you are a premium Spotify user &amp; you buy a gift card can you apply that gift card to your monthly payments
+  HIST_REPLY: Hey Chris! Can you DM us your account's email address? We'll see what we can suggest /NH [
+
+g167	other_unclear	escalate	ANGER=0
+  MSG: So is down
+  HIST_REPLY: Hi there, that doesn't seem right! Can you DM us your account's email address or username?
+
+g168	billing_subscription	auto	ANGER=0
+  MSG: when is your next spotify premium deal ?
+  HIST_REPLY: Hi there! We don't have any info on this right now, but we'll let the right team know it's
+
+g169	other_unclear	auto	ANGER=0
+  MSG: hello please give us the option to "clear all" for the "recently played" section 🙏
+  HIST_REPLY: Hey there. We can see how that’d be useful! You can vote for the official idea here: [link
+
+g170	playback_technical_bug	escalate	ANGER=0
+  MSG: Why can I no longer play songs on the Google Chrome App? It won't play any songs. Please help. I am desperate.
+  HIST_REPLY: Hey there! What's happening exactly? Can you let us know the device and operating system y || Thanks for the info. Try clearing your browser's cache/cookies and refreshing. Does that h || Hmm. Can you check if you're having the same issues on other browsers or an incognito wind || We understand. Can
+
+g171	other_unclear	auto	ANGER=0
+  MSG: there’s been 2 updates since the iPhone X came out, and neither makes Spotify full screen
+  HIST_REPLY: Hey, we understand - we’re working on it as we speak. Stay tuned! || Don't worry. We're working on this as we speak, but we don't have a release date yet. Watc
+
+g172	account_access	escalate	ANGER=1
+  MSG: I'm having problems logging in on my iPhone web and app. HELP!!! :)
+  HIST_REPLY: Hey Fernand! Do you get an error message when trying to log in? If you do, can you send us
+
+g173	account_access	auto	ANGER=0
+  MSG: Both my and accounts are hacked... what a great week I’m having 🤦🏽‍♂️🙄
+  HIST_REPLY: Hey there, we’re sorry to hear that. Check out [link] for what to do next
+
+g174	other_unclear	auto	ANGER=2
+  MSG: Y'ALL BETTER CHECK YO'SELVES BECAUSE IT IS FIVE MINUTES PAST 12:00 AM AND 's #WAVES IS NO WHERE TO BE FOUND.
+  HIST_REPLY: Hey Natalie! Fingers crossed we'll be able to have it soon, but there's info about Spotify
+
+g175	billing_subscription	escalate	ANGER=0
+  MSG: i went to go get premium it charged me but aint give me premium!
+  HIST_REPLY: Hey there, help's arrived! Could you send us a DM with your account's email address and us
+
+g176	other_unclear	auto	ANGER=0
+  MSG: when you gonna create tabs on the desktop version ??? Need to open new tab for items to look at later
+  HIST_REPLY: Hey! We can see how that’d be handy. Thanks for taking the time to reach out – your feedba
+
+g177	general_inquiry	auto	ANGER=1
+  MSG: Wtf why is the roots remixes no longer available?
+  HIST_REPLY: We’d love to have all music available, but we have some info about content here: [link]
+
+g178	other_unclear	escalate	ANGER=0
+  MSG: hi, what is your number for customer service
+  HIST_REPLY: Hey Nia! We don't offer phone support at the moment, but we can help via Twitter. Can you  || Could you DM us your account's email address? We'll take a look backstage and see what we 
+
+g179	billing_subscription	auto	ANGER=0
+  MSG: how does the family premium work? Do current premium members keep all their playlists etc? What qualifies as a eligible user?
+  HIST_REPLY: That's a yes! You guys get to keep your own accounts and playlists under the Family plan.  || We're afraid that since all family members must reside at the same physical address, your  || Don't worry. Once you send out your first invite, you'll be asked to enter your address. T
+
+g180	billing_subscription	escalate	ANGER=0
+  MSG: its not letting me pay for my spotify premium with my pre-paid visa card :/
+  HIST_REPLY: Hi there! Can you DM us your account's email address or username? We'll take a look backst
+
+g181	account_access	escalate	ANGER=0
+  MSG: Spotify Account is hacked .
+  HIST_REPLY: Hey Sarah! We're here to help. Can you DM us your account's email address? We'll take a lo
+
+g182	general_inquiry	escalate	ANGER=0
+  MSG: am I able to Equalize in spotify's interface?
+  HIST_REPLY: Hi there! Can you let us know what device, operating system, and Spotify version you're us || Sorry to hear that. Rest assured, your feedback has been noted and passed onto the team. I || Thanks. We're afraid an equalizer isn't available for the desktop app right now. Check thi
+
+g183	billing_subscription	escalate	ANGER=0
+  MSG: I have Premium for Family and I am being charged twice (on 2 of my CCs). I don't know if I have a duplicate account. Help!
+  HIST_REPLY: Hey Ana, help's here! Can you DM us your account's email address? We'll take a look backst
+
+g184	general_inquiry	escalate	ANGER=0
+  MSG: why doesn't 'rake it up' play and hasn't for the last day or so?
+  HIST_REPLY: Hey! Help's here. Can you share the link to the track you're having trouble playing: [link || Thanks! Could you let us know which country you're from? || Got it! We're able to play the track without any problems. What device, operating system,  || Can you also DM us your account's email address? We'
+
+g185	account_access	escalate	ANGER=0
+  MSG: I’m struggling to get into my account and none of the online help activities helps as I can’t log in to ask the q! #help #spotify #SpotifyPremium
+  HIST_REPLY: Hey, help's here! Can you DM us your account's email address? We'll check backstage /GK [l
+
+g186	general_inquiry	auto	ANGER=0
+  MSG: I'm having issues sharing links to songs. Is this a known problem?
+  HIST_REPLY: Hey! The cavalry's here. Are you getting a specific error message when you try sharing tra || Hmm. Could you confirm the make/model, operating system, and Spotify version of your devic || Thanks for the heads-up! Our tech folks are investigating this as we speak. Hopefully we'l
+
+g187	other_unclear	auto	ANGER=0
+  MSG: I wanna switch back to but how will I get all my songs over?! 😭
+  HIST_REPLY: Hi there, we're here to lend a hand. Can you let us know what's happening exactly? We'll d
+
+g188	playback_technical_bug	auto	ANGER=0
+  MSG: why is hello not working on spotify did they take it out im contacting my lawyer as we speak i hope it was worth it
+  HIST_REPLY: Hey there! Can you tell us what you're looking for? We'll check || 2: available again to you soon. More info here: [link] || 1: Got it. Looks like that song isn't available in the US right now. This boils down to li
+
+g189	other_unclear	auto	ANGER=0
+  MSG: this beautiful song doesn't deserve this hideous album cover 😩 do something end this [link]
+  HIST_REPLY: We hear you 🎧 Rest assured, your feedback will be passed on to the right folks
+
+g190	other_unclear	escalate	ANGER=0
+  MSG: Please reply to my DM.. I want my account back asap [link]
+  HIST_REPLY: We've just replied to your DM! Let's continue chatting there
+
+g191	other_unclear	auto	ANGER=0
+  MSG: I have an issue where if I go to play music on my phone after I've queued music on my computer, I lose all the music I added to my computer's queue. Even the recently played section only has what I played on my phone, no
+  HIST_REPLY: Hey there! Could you tell us your device/OS you're using? We'll see what we can suggest || Hmm. That's odd. Could you try uninstalling and reinstalling the app on both devices? Let 
+
+g192	billing_subscription	escalate	ANGER=0
+  MSG: My Rogers Spotify subscription expires this month. I want to renew. What do I do?
+  HIST_REPLY: Hey there! Can you DM us your account's email address? We'll take a look backstage /RB [li
+
+g193	other_unclear	auto	ANGER=0
+  MSG: seriously stop making me listen to your sponsored ads. I have never ONCE experienced 30 mins of ad free listening. 😂 #whatajoke
+  HIST_REPLY: 2: cause the ad-free time to reset || 1: Hey Nicole, that doesn't sound good! Did the video ad you were watching crash at any po
+
+g194	other_unclear	auto	ANGER=0
+  MSG: can u get LAY's new album up already im waiting
+  HIST_REPLY: Hey Jason. We’ll have it available to you as soon as it's available to us! [link]
+
+g195	feature_request	auto	ANGER=1
+  MSG: feature request for : block christmas music. call me a scrooge all you want but this noise is trash and it’s not even december.
+  HIST_REPLY: Hey, we hear you. Your feedback has been noted and passed onto the team 👊🏼
+
+g196	other_unclear	auto	ANGER=0
+  MSG: I don’t like that does not allow the user to filter out singles and EPs from their New Releases tab. Please fix.
+  HIST_REPLY: Hey there! We can see how that’d be handy. Thanks for taking the time to reach out – your 
+
+g197	other_unclear	auto	ANGER=0
+  MSG: When is going to put a sleep timer in their settings? Because I could use that right now.
+  HIST_REPLY: Hey Lauren! A sleep timer is a great idea. Help make it happen by adding support here: [li
+
+g198	feature_request	auto	ANGER=0
+  MSG: why remove the preview feature? ☹️
+  HIST_REPLY: Hey! We have more info about this here: [link] Give us a shout if you have any questions
+
+g199	content_availability	auto	ANGER=0
+  MSG: listened to a bunch of and noticed that their EP album from 1983 is not available. Will it be in the future?
+  HIST_REPLY: Hey Deacon! Fingers crossed we'll be able to have it soon, but there's info about Spotify  || Anytime! Let us know if you ever need us again. We'd be... [link]
+
+g200	other_unclear	auto	ANGER=0
+  MSG: when i hold down on a song it doesnt play a preview like its supposed to help
+  HIST_REPLY: Hey there! Can you tell us what device and operating you're using? We'll see what we can s || Thanks! We have more info about this here: [link] Give us a shout if you have any question || No worries. We'll be sure to let the right team know that this is something that you miss.
+
+g201	general_inquiry	escalate	ANGER=0
+  MSG: Hi . I can't remember my address, how can I check it?
+  HIST_REPLY: Hey there! Can you DM us your account's username and email address? We'll see what we can 
+
+g202	other_unclear	auto	ANGER=0
+  MSG: Why don't you support Apple TV for Spotify connect? ☹️
+  HIST_REPLY: Hey! We're afraid it's not currently possible, but you can add your support for the idea h
+
+g203	other_unclear	auto	ANGER=2
+  MSG: WHY IS 'THE CITY SLEEPS IN FLAMES' BY SCARY KIDS SCARING KIDS OFF SPOTIFY AGAIN
+  HIST_REPLY: Hey there! Sometimes content gets temporarily removed because of licensing changes. Hopefu
+
+g204	playback_technical_bug	auto	ANGER=0
+  MSG: every time I try to sync the songs I have on my laptop to Spotify I ALWAYS have a problem when they won’t sync and show up on my iPhone app!
+  HIST_REPLY: Hey! Can you try the troubleshooting steps on the FAQ section of this link: [link] Let us 
+
+g205	other_unclear	escalate	ANGER=1
+  MSG: I think I may have to move away from if they don't sort their shit out and stop deleting my (and others') downloader songs.
+  HIST_REPLY: Hi there. We're sorry to hear the issue is happening again. We've sent a DM your way. Let'
+
+g206	general_inquiry	auto	ANGER=0
+  MSG: please don't ever put this ad on my Spotify again ok thanks [link]
+  HIST_REPLY: Hi Marissa, you can show your support for ads that are better suited to you by voting here
+
+g207	other_unclear	escalate	ANGER=0
+  MSG: ok pls can u care to not put playlist radio on when im just wanting to listen to my playlist rather than songs i MIGHT want
+  HIST_REPLY: Hey there! Could you DM us your account's username and email address? We'll see what we ca
+
+g208	billing_subscription	escalate	ANGER=0
+  MSG: why can't i switch my premium subscription to the premium student subscription pls send help im becoming broke
+  HIST_REPLY: Hey there! We've just replied to your DM. Check it out. We'll continue helping there
+
+g209	other_unclear	escalate	ANGER=0
+  MSG: Bruh what happened to the Take Care album?! [link]
+  HIST_REPLY: Hi there! Sometimes content is temporarily removed due to licensing, but we hope to have i || Hey Nicholas! Could you DM us your account's username or email address? We'll take a look 
+

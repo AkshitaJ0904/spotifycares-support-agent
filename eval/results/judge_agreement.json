@@ -1,0 +1,42 @@
+{
+  "per_dimension": {
+    "grounded": {
+      "n": 45,
+      "pearson_r": 0.9942470113803391,
+      "exact_agreement": 0.9777777777777777,
+      "within_1_agreement": 1.0,
+      "judge_mean": 2.8666666666666667,
+      "human_mean": 2.8444444444444446
+    },
+    "correct_helpful": {
+      "n": 45,
+      "pearson_r": 0.9608260485506334,
+      "exact_agreement": 0.6888888888888889,
+      "within_1_agreement": 1.0,
+      "judge_mean": 2.888888888888889,
+      "human_mean": 2.6222222222222222
+    },
+    "tone_brand_fit": {
+      "n": 45,
+      "pearson_r": 0.9886890766898371,
+      "exact_agreement": 0.9777777777777777,
+      "within_1_agreement": 1.0,
+      "judge_mean": 3.511111111111111,
+      "human_mean": 3.533333333333333
+    },
+    "actionable": {
+      "n": 45,
+      "pearson_r": 0.9798501839458538,
+      "exact_agreement": 0.8888888888888888,
+      "within_1_agreement": 1.0,
+      "judge_mean": 2.7333333333333334,
+      "human_mean": 2.6666666666666665
+    }
+  },
+  "overall": {
+    "n": 180,
+    "pearson_r": 0.9753537118807143,
+    "exact_agreement": 0.8833333333333333,
+    "within_1_agreement": 1.0
+  }
+}

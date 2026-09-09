@@ -1,0 +1,6 @@
+running 90 golden examples through: ['full']
+[full] resuming: 40 already done
+  [full] 20/71
+  [full] 40/71
+  [full] 60/71
+[full] done: 71 new examples in 1251.6s (17.63s/ex) -> eval/results/full.jsonl

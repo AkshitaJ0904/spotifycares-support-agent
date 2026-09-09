@@ -1,0 +1,14 @@
+.venv/
+.env
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+*.jsonl.bak
+
+# raw + derived data: large, fully regenerable via scripts/00-03 (see README)
+data/raw/
+data/raw2/
+data/processed/
+scripts/out/cluster_labels.npy
+scripts/out/conversation_ids_order.json
