@@ -48,10 +48,10 @@ useful if you have more than one key, but note keys from the *same* Google
 project share one quota pool, so this only helps with keys from different
 accounts/projects.
 
-## Reproduce the headline results (~10-13 min end to end)
+## Reproduce the headline results
 
 ```bash
-python3 scripts/00_download_data.py          # ~2 min, ~195MB
+python3 scripts/00_download_data.py          # ~195MB, ONE-TIME -- see timing note below
 python3 scripts/01_prepare_data.py           # filters to SpotifyCares, cleans, splits corpus/golden-holdout -- seconds
 python3 scripts/02_build_taxonomy.py         # TF-IDF+KMeans cluster discovery -> scripts/out/cluster_review.md -- ~1 min
 python3 scripts/03_build_retrieval_index.py  # builds the grounding index -- seconds
@@ -59,10 +59,23 @@ python3 scripts/03_build_retrieval_index.py  # builds the grounding index -- sec
 python3 -m eval.build_golden_set             # samples 210 from the held-out pool -- seconds
 python3 -m eval.finalize_golden_set          # merges in the hand-reviewed labels (eval/golden_labels.py) -- seconds
 
-# Quick end-to-end smoke test on a subsample (keeps the whole thing under 15 min):
-python3 -m eval.run_systems --n 25           # trivial+simple are instant; full system is ~10s/example (LLM calls)
+# Quick end-to-end smoke test on a subsample:
+python3 -m eval.run_systems --n 15           # trivial+simple are instant; full system makes 2 live LLM calls/example
 python3 -m eval.score
 ```
+
+**Timing note, measured, not assumed:** steps 2-6 above take under a minute
+total (verified from a clean clone). Step 1 (the download) is the one
+genuinely variable piece: it's a one-time, unauthenticated pull from the
+Hugging Face Hub, and on a clean environment with no local cache we measured
+**~10 minutes** for the 195MB file -- much slower than a cached re-run (which
+completes in seconds, and every run after the first is cached). If your
+network is faster or you set an `HF_TOKEN` env var (Hugging Face's own fix for
+unauthenticated-request throttling, free to get), this will be quicker. Budget
+for the download to be the long pole, not the pipeline itself -- everything
+after step 1 plus the `--n 15` smoke test is fast (~1-2 min more). If you're
+tight on the 15-minute window, run step 1 first and let steps 2-8 follow once
+it lands.
 
 This regenerates the taxonomy discovery, retrieval index, and golden set from
 scratch, and proves the full pipeline runs end to end on a live subsample.
