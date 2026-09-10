@@ -120,16 +120,35 @@ they came up.
     brand style. Worth a paragraph in report.md's failure analysis as a
     concrete "grounding can go wrong in an unexpected direction" example.
 
-14. **Full LLM pipeline evaluated on the entire 210-item golden set, not a
-    small sample, despite ~10s/example latency (~35 min total).** Free-tier
-    API, ran once in the background and results are checked into
-    `eval/results/` so report.md's numbers don't depend on re-running anything.
-    The README's <15-min repro path instead runs a smaller `--n` subsample
-    against baselines and the full system live -- see report.md's "what's
-    misleading" section for why the full-set numbers and the quick-repro
-    numbers can legitimately differ.
+14. **`full` system evaluated on a 111-example matched subsample, not the
+    entire 210 golden set -- a plan that changed under real constraints, not
+    the original design.** The plan was the full 210 for every system; free-tier
+    rate limits made the `full` system's ~10s/example (two LLM calls each)
+    genuinely slow at that scale, so it was capped at 111 with `--n 111
+    --resume` (`eval/run_systems.py`'s resume support -- keyed on `golden_id`,
+    safe to interrupt and restart -- was added specifically because of this).
+    `trivial` and `simple` still ran on the full 210 since they're free/instant;
+    the 111 used for the report's headline table is the intersection, so every
+    system is compared on identical examples (`eval/score.py --ids-from`).
+    See DECISIONS.md #8 for the parallel story on why the LLM-judge stage hit
+    the same wall even harder (and why `JUDGE_MODEL` changed as a result).
 
 15. **No inline code comments explaining *what* code does** -- module
     docstrings carry the *why* (design rationale, tradeoffs), consistent with
     keeping the repo readable for a live walkthrough without redundant
     narration next to self-explanatory code.
+
+16. **Caught (via actually re-running the README's own commands, not just
+    reading them) that `run_systems.py`/`llm_judge.py` always appended to
+    their output files regardless of `--resume`.** Without `--resume`, the
+    code correctly computed a fresh subsample but still opened the output
+    file in append mode -- meaning a second, no-`--resume` invocation (exactly
+    what the README's own quick-repro section tells a reader to run) would
+    have silently duplicated rows into the carefully-built full result files
+    instead of overwriting them, as intended. Fixed: file mode is now `"a"`
+    only under `--resume`, `"w"` otherwise. Caught by literally executing the
+    README's reproduction steps end-to-end against the real results directory
+    rather than trusting that the code matched the docs -- the corrupted
+    files were then repaired by deduping to first-seen `golden_id` and
+    re-verified against `eval/results/automated_scores.json` to confirm zero
+    numeric drift from the fix.

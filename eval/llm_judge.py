@@ -124,7 +124,8 @@ def main():
 
         write_lock = threading.Lock()
         n_done = 0
-        with open(out_path, "a") as f, ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        file_mode = "a" if args.resume else "w"
+        with open(out_path, file_mode) as f, ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
             futures = [pool.submit(score_row, r) for r in rows]
             for fut in as_completed(futures):
                 r = fut.result()

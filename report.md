@@ -1,11 +1,11 @@
 # Report: an AI support agent for SpotifyCares
 
 All numbers below are from the checked-in run in `eval/results/` (see README
-for how to reproduce). Automated metrics run on a 111-example matched subsample
-of the 210-example golden set (see §6 for why 111 and not 210/all-three-equal);
-LLM-judge scores run on that same 111 for `trivial`/`simple`, and on 38 of it
-for `full` -- see §6, this was a real constraint (free-tier API quota ran out
-partway through judging, documented rather than hidden).
+for how to reproduce). Both automated metrics and LLM-judge scores run on the
+same 111-example matched subsample of the 210-example golden set, identical
+across all three systems (see §6 for why 111 and not the full 210 -- a real
+free-tier rate-limit constraint, not a stylistic choice; the judge pass in
+particular had to be finished in two sessions across a quota reset).
 
 ## 1. Problem framing
 
@@ -80,10 +80,10 @@ the identical examples; see `eval/results/automated_scores.json` and
 | Escalation recall (escalate class) | 0.00 | 0.52 | **0.57** |
 | Reply token-overlap-F1 vs. real historical reply | 0.14 | 0.29 | **0.30** |
 | Reply length (words, mean) | 17.0 | 20.9 | 23.0 |
-| LLM-judge: grounded (1-5) | 2.05 | 2.86 | **3.61** |
-| LLM-judge: correct/helpful (1-5) | 1.92 | 2.87 | **3.68** |
-| LLM-judge: tone/brand fit (1-5) | 3.00 | 3.33 | **4.00** |
-| LLM-judge: actionable (1-5) | 1.50 | 3.31 | **3.71** |
+| LLM-judge: grounded (1-5) | 2.05 | 2.84 | **3.70** |
+| LLM-judge: correct/helpful (1-5) | 1.92 | 2.85 | **3.71** |
+| LLM-judge: tone/brand fit (1-5) | 3.00 | 3.31 | **4.09** |
+| LLM-judge: actionable (1-5) | 1.50 | 3.29 | **3.79** |
 
 **LLM-judge / human agreement** (45 replies, 15 per system, scored by the
 author against the same rubric the judge uses, blind to the judge's own
@@ -99,7 +99,7 @@ possibly a shade optimistic. See §6 for the bigger caveat on this number
 **Interpretation.** The system ordering is exactly what should happen if the
 added machinery is doing real work: intent accuracy roughly doubles from
 simple to full (47%→75%), and every judge dimension for `full` beats `simple`
-by 0.4-0.8 points on a 5-point scale. The one metric that *doesn't* show a
+by 0.5-0.9 points on a 5-point scale. The one metric that *doesn't* show a
 large full-vs-simple gap is escalation-decision accuracy (75% vs. 75% --
 identical), which looks like the fancier escalation policy bought nothing.
 It didn't buy accuracy, but it did buy behavior: `full` has higher escalate-
@@ -178,17 +178,18 @@ would be misleading on its own.
 
 ## 6. What's misleading about my headline number
 
-- **The `full` system's LLM-judge scores are averaged over 38 examples, not
-  111 -- a real constraint, not a stylistic choice.** Free-tier API quota on
-  all 4 rotated keys was exhausted partway through judging (confirmed by
-  direct curl, "exceeded your current quota" -- not a transient rate limit;
-  see DECISIONS.md #8). Automated metrics (intent/escalation accuracy) *are*
-  the full 111 for every system since those calls were cheaper and completed
-  earlier; only the judge-quality numbers for `full` specifically are on the
-  smaller n=38. A 73-example gap on the system we care most about is enough
-  that the judge-quality numbers for `full` should be read as indicative, not
-  precise -- and it's a real example of infrastructure constraints quietly
-  narrowing what a headline number actually covers if you don't say so.
+- **All 111 judge scores for `full` did complete, but only after hitting a
+  real quota wall and resuming the next day** -- worth flagging even though
+  it's resolved, because it's exactly the kind of thing that's easy to quietly
+  patch over. Free-tier quota on all 4 rotated keys was exhausted mid-run
+  (confirmed by direct curl returning "exceeded your current quota", not a
+  transient rate limit; see DECISIONS.md #8), so the first pass judged only
+  38/111 for `full` before erroring out cleanly (thanks to the resumable
+  design -- failed rows are never silently counted as done) and the rest
+  finished after quota reset. Had this report been written between those two
+  sessions, the honest number would have been n=38, not n=111 -- a reminder
+  that "the eval finished" is itself a claim worth being precise about, not
+  an assumed background fact.
 - **The judge and the agent are now the *same* model** (`gemini-flash-lite-latest`
   for both -- DECISIONS.md #8), not by design but because every larger Gemini
   judge model hit the same hard quota wall. The strong judge/human agreement
@@ -220,7 +221,7 @@ would be misleading on its own.
   conversely a reply that copies boilerplate phrasing scores well while adding
   little. It moved the least across systems (0.14→0.29→0.30) of any metric in
   the table -- that's the proxy being insensitive, not the systems being
-  similar; the judge scores (which moved a lot, e.g. actionable 1.50→3.71) are
+  similar; the judge scores (which moved a lot, e.g. actionable 1.50→3.79) are
   the more trustworthy read on quality.
 - **210 examples from one brand's Twitter threads, cleaned by someone else's
   redaction pipeline** (the HF mirror -- DECISIONS.md #2). Generalization to
@@ -270,3 +271,33 @@ would be misleading on its own.
 ## Decision log
 
 See [DECISIONS.md](DECISIONS.md).
+
+## Citations & attribution
+
+- **Dataset**: Kaggle *Customer Support on Twitter*
+  (`thoughtvector/customer-support-on-twitter`), accessed via a public Hugging
+  Face reconstruction, `TNE-AI/customer-support-on-twitter-conversation`,
+  which pre-splits the same underlying tweets into per-thread `Customer:`/
+  `Support:` turns with a `company` field (see DECISIONS.md #2 for why this
+  source was used instead of the raw Kaggle CSV, and its tradeoffs).
+- **LLM**: Google Gemini API (`gemini-flash-lite-latest`), used for intent
+  classification, reply drafting, and (per DECISIONS.md #8) also LLM-judge
+  scoring, free tier.
+- **Libraries**: scikit-learn (TF-IDF vectorization, KMeans clustering,
+  classification-report/precision-recall metrics), pandas/pyarrow (data
+  handling), `huggingface_hub` (dataset download), `requests` (Gemini REST
+  calls) -- all standard open-source tooling, used as-is via their public
+  APIs, no modified/vendored code.
+- **Methodology**: retrieval-augmented generation (grounding replies in
+  retrieved precedent rather than free-generation) and LLM-as-judge evaluation
+  (using a model to score outputs against a rubric, validated against human
+  agreement) are both established techniques in the field, not novel to this
+  project -- applied here, not invented here. No specific paper's rubric or
+  prompts were copied; the taxonomy, escalation rules, and judge rubric in
+  this repo were authored from scratch against this dataset.
+- **AI coding assistance**: used throughout development per the assignment's
+  own rules ("you may use AI coding assistants freely... we will ask you to
+  explain and modify your own code live") -- all design decisions, taxonomy
+  choices, labeling judgments, and failure-mode analysis in this report and
+  DECISIONS.md reflect the author's own review and reasoning over the actual
+  data and run outputs, not unreviewed generated content.

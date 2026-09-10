@@ -56,7 +56,8 @@ def main():
 
         remaining = [r for r in rows if r["golden_id"] not in done_ids]
         t0 = time.time()
-        with open(out_path, "a") as f:
+        file_mode = "a" if args.resume else "w"
+        with open(out_path, file_mode) as f:
             for i, row in enumerate(remaining):
                 kwargs = {"exclude_conversation_id": row["conversation_id"]} if sys_name != "trivial" else {}
                 try:

@@ -62,3 +62,16 @@ judging restricted to 111 matched golden_ids from eval/results/full.jsonl
   [full] 40/73
   [full] 60/73
 [full] wrote eval/results/full_judged.jsonl
+judging restricted to 111 matched golden_ids from eval/results/full.jsonl
+[trivial] resuming: 111 already judged, 0 failed (retrying), 0 left
+[trivial] judging 0 replies with gemini-flash-lite-latest (2 concurrent workers across 4 key(s))...
+[trivial] wrote eval/results/trivial_judged.jsonl
+[simple] resuming: 107 already judged, 4 failed (retrying), 4 left
+[simple] judging 4 replies with gemini-flash-lite-latest (2 concurrent workers across 4 key(s))...
+[simple] wrote eval/results/simple_judged.jsonl
+[full] resuming: 38 already judged, 73 failed (retrying), 73 left
+[full] judging 73 replies with gemini-flash-lite-latest (2 concurrent workers across 4 key(s))...
+  [full] 20/73
+  [full] 40/73
+  [full] 60/73
+[full] wrote eval/results/full_judged.jsonl
