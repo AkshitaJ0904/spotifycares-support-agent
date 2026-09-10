@@ -90,6 +90,9 @@ python3 -m eval.render_report_tables          # regenerates eval/results/report_
 
 ## Try a single message
 
+Requires the setup steps above (needs `data/processed/retrieval_*` from
+`scripts/03_build_retrieval_index.py` to exist):
+
 ```bash
 python3 -m agent.pipeline "I can't log into my account, it says wrong password"
 python3 -m baselines.simple "why was my favorite album removed"
