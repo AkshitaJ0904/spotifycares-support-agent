@@ -12,3 +12,6 @@ data/raw2/
 data/processed/
 scripts/out/cluster_labels.npy
 scripts/out/conversation_ids_order.json
+
+# personal interview-prep notes, not a project deliverable
+interview_prep.md
